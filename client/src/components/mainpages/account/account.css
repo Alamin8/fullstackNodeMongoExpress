@@ -1,0 +1,85 @@
+#AccountHeader {
+  margin-bottom: 20px;
+}
+.productsheader span {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.account-all {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.account-left {
+  flex: 2;
+  border-right: 2px solid rgba(128, 128, 128, 0.671);
+}
+.account-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.account-profile img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.uploadAvater{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.account-info{
+    display: flex;
+    flex-direction: column;
+}
+.acc-info-title{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.541);
+    text-decoration: underline;
+}
+.acc-all-info{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.acc-info-item{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.info-label{
+    flex: 2;
+    font-weight: 600;
+    color: gray;
+}
+.info-value{
+    flex: 3;
+    font-weight: 500;
+    color: rgba(31, 19, 19, 0.801);
+}
+.unauthorized{
+    color: blue;
+}
+.acc-active{
+    color: green;
+}
+.disabled{
+    color: red;
+}
+
+
+
+.account-right {
+  flex: 3;
+}
+.cng-pass{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: rgba(0, 0, 0, 0.541);
+    box-shadow: rgba(10, 11, 12, 0.137) 0px 10px 10px -10px;
+    margin-bottom: 25px;
+}

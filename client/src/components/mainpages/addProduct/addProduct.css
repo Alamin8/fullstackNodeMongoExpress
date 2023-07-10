@@ -1,0 +1,142 @@
+#productHeader{
+  margin-bottom: 40px;
+}
+.productsheader span {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.addProductBtn {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  background-color: teal;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.add-product h3 {
+  margin-bottom: 15px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  padding: 7px 0;
+  font-size: 18px;
+  color: gray;
+}
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.productContainer .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.productContainer .left img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+.uploadDelete {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+  gap: 20px;
+}
+.uploadDelete p {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.uploadDelete p span {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.productContainer .right {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 3;
+  margin-top: 15px;
+}
+
+.productContainer .right .productLeft {
+  flex: 1;
+}
+.productContainer .right .productRight {
+  flex: 1;
+}
+.inputItem {
+  font-size: 15px;
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  margin-bottom: 15px;
+}
+.inputItem:focus {
+  outline: 0;
+  border-color: #0c0c0c7c;
+}
+.upload {
+  display: inline-block;
+  background-color: indigo;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+}
+.upload span {
+  margin-left: 5px;
+}
+#file_up {
+  visibility: hidden;
+  width: 0px;
+}
+.uploadDelete p.delete {
+  background-color: red;
+  padding: 8px 12px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+}
+.productLabel {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(87, 82, 82, 0.719);
+  margin-bottom: 5px;
+}
+.expField{
+    display: flex;
+    gap: 8px;
+}
+.expField input{
+    flex: 1;
+}
+.btnSubmit{
+    font-size: 15px;
+    padding: 1em 4em;
+    line-height: 1.2;
+    margin-top: 15px;
+    border: transparent;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}

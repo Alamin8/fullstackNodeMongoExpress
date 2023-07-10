@@ -1,0 +1,154 @@
+.productsheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  line-height: 1.5;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+}
+#IncomeHeader {
+  margin-bottom: 20px;
+}
+.productsheader span {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.addProductBtn {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  background-color: teal;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.common-field {
+  display: flex;
+  gap: 30px;
+  padding: 15px;
+}
+.commonAmount {
+  flex: 1;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.addCommonAmount {
+    padding: 10px;
+  flex: 3;
+}
+.hr{
+    margin-bottom: 10px;
+    height: 1px;
+}
+.productLabel {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(87, 82, 82, 0.719);
+  margin-bottom: 5px;
+}
+.inputItem {
+  font-size: 17px;
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  margin-bottom: 15px;
+}
+#textArea{
+    min-height: 200px;
+}
+.btnSubmitCommon{
+    font-size: 15px;
+    padding: .8em 3em;
+    line-height: 1.2;
+    margin-top: 7px;
+    border: transparent;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.commonAmount h2{
+    padding: 5px 3px;
+    font-size:22px;
+    color: gray;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.commonAmount h1{
+    font-size: 50px;
+    color: #494949;
+    padding: 20px 0;
+}
+.last-title{
+    font-size: 18px;
+    color: #494949;
+    font-weight: 500;
+    padding: 10px 3px;
+    background-color: rgb(88, 111, 121);
+    color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.lastAmountItemContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 400px;
+    padding: 8px 0;
+}
+.lastAmountItemContainer::-webkit-scrollbar {
+    display: none;
+}
+.lastAmountItemContainer {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}  
+.lastAmontItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #4e4e4ed5;
+    margin-bottom: 5px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 5px 0;
+}
+.amountTk{
+    font-size: 20px;
+}
+.amountWrapper{
+    width: 90px;
+    font-size: 18px;
+    color: #1f1f1fa8;
+    font-weight: 600;
+}
+.viewAll{
+    text-align: right;
+    margin-top: 7px;
+    cursor: pointer;
+    
+}
+.viewAll:hover{
+    color: rgba(172, 17, 17, 0.657);
+    text-decoration: underline;
+}
+.amount-title{
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.addNew{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 10px;
+}

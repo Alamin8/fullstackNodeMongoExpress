@@ -1,0 +1,299 @@
+.productsheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  line-height: 1.5;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+}
+.productsheader span {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+#productsheader{
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.52);
+}
+.addProductBtn {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  background-color: teal;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.productSearch {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  gap: 15px;
+  padding: 6px;
+}
+.search1 {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search3 {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productSearch label {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-right: 7px;
+  width: 10%;
+}
+.searchFirld {
+  width: 95%;
+  height: 40px;
+  font-size: 18px;
+  background-color: #f9f9f9;
+  border: 0;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  padding: 5px;
+}
+.searchFirld:focus {
+  outline: 0;
+  border-color: #0c0c0c7c;
+}
+.productTable{
+    margin-top: 15px;
+}
+.productData td,
+.productData th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.productData tr{
+    display: flex;
+}
+.productData tr th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pSI{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+.p_img{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.p_name{
+    width: 420px;
+    overflow-wrap: break-word;
+}
+.p_code{
+    width: 130px;
+    overflow-wrap: break-word;
+}
+.p_itemcode{
+    width: 170px;
+    overflow-wrap: break-word;
+}
+.p_price, .p_stoc{
+    width: 100px;
+    overflow-wrap: break-word;
+}
+.expiry_date{
+    width: 130px;
+    overflow-wrap: break-word;
+}
+.expiry_status{
+    width: 200px;
+    overflow-wrap: break-word;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expiry_status.expired span{
+    padding: 7px;
+    background-color: rgba(61, 19, 19, 0.924);
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+.expiry_status.expiredSoon span{
+    padding: 7px;
+    background-color: rgba(233, 30, 30, 0.924);
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+.expiry_status.expiredFast span{
+    background-color: rgba(233, 94, 30, 0.924);
+    padding: 7px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+.expiry_status.expiredLate span{
+    padding: 7px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+.p_addedby{
+    width: 200px;
+    overflow-wrap: break-word;
+    font-size: 13px;
+}
+.PLI_name{
+    font-size: 14px;
+    display: block;
+    font-weight: bolder;
+}
+.p_icon{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 12px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.productView{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 5px 15px;
+  gap: 40px;
+
+}
+.productView .img{
+  flex: 1;
+}
+.productView .img img{
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border: 1px solid rgba(151, 151, 151, 0.692);
+}
+.productViewAll{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.productheading{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.itemcode{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.itemcode span{
+  font-weight: 400;
+  color: rgb(33, 34, 34);
+  font-size: 15px;
+}
+.productPrice{
+  font-size: 25px;
+  padding: 10px 0;
+}
+.btndiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btnP{
+  padding: 5px 11px;
+  font-size: 15px;
+  border: transparent;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.edit{
+  background: gray;
+}
+.edit:hover{
+  background: rgba(128, 128, 128, 0.787);
+}
+.delete{
+  background: tomato;
+}
+.delete:hover{
+  background: rgba(255, 99, 71, 0.787);
+}
+.productInfoAdd{
+  width: 380px;
+  height: 130px;
+  background: rgba(0, 0, 0, 0.685);
+  border-radius: 5px;
+  position: relative;
+}
+.productInfoAdd .levelP{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(255, 174, 0, 0.877);
+  padding: 5px 7px;
+  font-size: 13px;
+  border-radius: 4px 0 4px 0;
+}
+
+.entryInfo{
+  margin-top: 38px;
+  padding: 0 5px ;
+
+}
+.productInfoAdd p{
+  color: #fff;
+  
+  margin: 7px 0;
+}
+.productInfoAdd p span{
+  font-size: 13px;
+  color: #fff;
+  padding: 3px 4px;
+  background: rgb(58, 128, 194);
+  margin-left: 5px;
+  border-radius: 5px;
+
+}
